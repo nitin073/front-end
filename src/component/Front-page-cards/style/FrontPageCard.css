@@ -1,0 +1,42 @@
+#Front-Page-Main-Div {
+  height: 300px;
+  width: 200px;
+}
+.Front-Page-All-Id {
+  padding-top: 3px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.Front-Page-All-Id:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.Front-Page-Img {
+  height: 100px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.Front_Cards_Main {
+  padding-left: 60px;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-right: 75px;
+}
+.Front_Cards_body {
+  display: inline-block;
+  margin-left: 50px;
+}
+.Front-Page-Rating {
+  margin-right: 10px;
+  margin-top: 5px;
+  text-align: right;
+}
+.Front-Page-Food-Name {
+  margin-top: -35px;
+  margin-left: 10px;
+}
+.Front-Page-Dicrip {
+  margin-left: 10px;
+  font-size: 14px;
+}

@@ -1,38 +1,368 @@
-.App {
+/* -----------------------------------------------Background-page---------------------------------------------------------------- */
+.Background-Page {
+  background-image: url("../public/pics/Backgroundpic.jpg");
+  background-attachment: fixed;
+  background-size: 100% 587px;
+  background-repeat: no-repeat;
+}
+/*----------------------------------------------------------------- Navbar   -------------------------------------------------------- */
+#Front-Page-Navbar {
+  width: 1420px;
+  height: 80px;
+  padding-left: 20px;
+  position: absolute;
+}
+#Front-Page-Navbar .Logo {
+  height: 100px;
+  margin-left: 10px;
+  color: black;
+  cursor: pointer;
+  filter: brightness(800%);
+  width: 100px;
+  margin-top: 10px;
+}
+#Front-Page-Navbar .login-button {
+  margin-top: -80px;
+  margin-left: 1250px;
+  padding-left: 3px;
+}
+.login-button {
+  position: absolute;
+}
+.Login-btn1:hover {
+  box-shadow: whitesmoke 0px 5px 15px;
+  border-radius: 7px;
+}
+.Login_Main_User {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  margin-left: 90%;
+  margin-top: -25px;
+  font-size: 20px;
+}
+.Login_Main_User:hover {
+  box-shadow: rgb(129, 217, 205) 0px 5px 15px;
+  border-radius: 7px;
+}
+.login-button .Login {
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: transparent;
+  padding-left: 5px;
+  margin-right: 10px;
+  font-size: 19px;
+  text-decoration: none;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.Signup-full {
+  margin-bottom: 10px;
+  height: 800px;
+}
+.Signup-Main {
+  text-align: center;
+  box-shadow: 1px 1px 4px 0.5px #888888;
+  margin-right: 35%;
+  margin-left: 35%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 280px;
+}
+.Name-Signup {
+  color: aquamarine;
+}
+.Signup-Main .Signup {
+  margin-bottom: 15px;
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+}
+.Signup-Main button {
+  width: 70%;
+  margin-bottom: 15px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.Signup-Main .Account {
+  margin-bottom: 15px;
+}
+.Signup-Main .Account .Signup-login {
+  color: rgb(239, 79, 95);
+  cursor: pointer;
+  line-height: inherit;
+}
+#Login {
+  text-align: center;
+  margin-top: 260px;
+  /* border: 3px solid black; */
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.inp-login {
+  width: 200px;
+  margin-top: 20px;
+}
+
+/* -------------------------------------------------------------------- Food Corner --------------------------------------------------------------------------- */
+
+.foodtheme img {
+  height: 550px;
+  width: 100%;
+}
+
+.foodcorner {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 170px;
+  color: azure;
+}
+.middle1 {
+  background-color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.Delivery-icons {
+  margin-right: 9px;
+  height: 30px;
+  margin-top: -110px;
+  margin-left: 10px;
+}
+.text-reset {
+  text-decoration: none;
+}
+#delivery-Text {
+  margin-left: -30px;
+  padding-left: 30px;
+}
+.Delivery {
+  position: absolute;
+  margin-left: 1290px;
+  margin-top: 250px;
+  color: antiquewhite;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Dl {
+  height: 100px;
+  text-align: center;
+  line-height: 80px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 10px;
+}
+
+.Dl:hover {
+  height: 100px;
+  filter: brightness(200%);
+  box-shadow: whitesmoke 0px 5px 15px;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  transition-delay: 230ms;
+}
+/* -----------------------------------------hide =------------============================ */
+
+.Dining {
+  position: absolute;
+  margin-top: 250px;
+  color: antiquewhite;
+  width: 100px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.Din {
+  padding-left: 10px;
+  height: 100px;
+  width: 130px;
+  line-height: 70px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -11px;
+}
+.Dining-icons {
+  position: absolute;
+  margin-top: 55px;
+  margin-left: -50px;
+  font-size: 30px;
+}
+.Din:hover {
+  filter: brightness(200%);
+  box-shadow: whitesmoke 0px 5px 15px;
+  height: 100px;
+  width: 130px;
+  line-height: 70px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: -11px;
+  transition-delay: 230ms;
+}
+.Navbar-Search {
+  margin-top: 5px;
+  margin-left: 400px;
+}
+.Navbar-Search .Navbar-Search-box {
+  margin-top: 5px;
+}
+.Navbar-Search-icon {
+  position: absolute;
+  margin-top: -38px;
+  color: #888888;
+  font-size: 28px;
+  margin-left: 512px;
+  cursor: pointer;
+}
+#fullWidth {
+  height: 10px;
+  border-radius: 10px;
+}
+#Main-Nav-Bar {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  height: 80px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: -20px;
+}
+#Main-Nav-Bar .Login {
+  color: blue;
+}
+.Right-side-login {
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 1230px;
+  padding-top: 10px;
+  height: 45px;
+  width: 150px;
+  margin-top: -45px;
+}
+.Right-side-login .Login {
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.Logo1 {
+  height: 100px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 25px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* _____________________________________________________________________________Sliderrrr------------------------------- */
+#Main-Slider {
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 60px 170px 50px 170px;
+}
+.The-slider p {
+  font-weight: bold;
+  padding-top: 10px;
+}
+.The-slider {
+  padding-left: 20px;
+  height: 230px;
+  margin-bottom: 50px;
+}
+.The-slider:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 10px;
+  background-color: rgb(239, 235, 235);
+}
+.Slider-Images {
+  height: 180px;
+  border-radius: 20px;
+  width: 230px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.Slider-p {
+  margin-left: 70px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+/* -------------------------------------------------------------_ADD parrt--------------------------------- */
+.Main-Add {
+  /* background-color: rgb(179, 202, 199); */
+  height: 690px;
+  padding-top: 245px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Boder_ADD {
+  border-radius: 30px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Boder_ADD:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Add_Name :hover {
+  background-color: red;
 }
-
-.App-link {
-  color: #61dafb;
+.Navbar_Add {
+  height: 220px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Btn_Add {
+  background-color: transparent;
+}
+.BTN_ADD_MAIN :hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 10px;
+}
+.Payment {
+  background-color: black;
+  padding-top: 90px;
+  /* height: 800px; */
+}
+#imgpayment {
+  /* border: 3px solid red; */
+  border-radius: 10px;
+}
+.middle_payment {
+  /* border: 6px solid red; */
+  height: 800px;
+  text-align: center;
+}
+.Main_Role {
+  border: 0.3px solid magenta;
+  border-radius: 20px;
+  margin-left: 37%;
+  margin-right: 37%;
+  height: 600px;
+  padding-top: 40px;
+}
+.Main_Role:hover {
+  /* background-color: magenta;
+   */
+  box-shadow: rgb(226, 54, 232) 0px 22px 70px 4px;
+}
+.BTN_PAYMENT_DONE:hover {
+  background-color: #888888;
+  border:1px solid  #888888;
+  cursor: pointer;
+}
+.Payment_Successful{
+ background: -webkit-linear-gradient(#b542aa, #0add9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.close_payment :hover{
+  color: red;
 }

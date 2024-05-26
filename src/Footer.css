@@ -1,0 +1,91 @@
+.Footer {
+  background-color: #f0f5ff;
+  height: 230px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+.Footer .About li {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding-top: 20px;
+}
+.Footer .About {
+  margin-left: 15px;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+}
+
+.Footer .Social-Media {
+  margin-left: 150px;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+}
+.Footer .Social-Media li {
+  text-decoration: none;
+  display: block;
+  color: black;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.Rate-us {
+  margin-left: 1140px;
+  margin-top: 16%;
+  position: absolute;
+  color: black;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.Footer .Help-Disk {
+  margin-left: 320px;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+}
+.Footer .Help-Disk li {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  color: black;
+  padding-top: 20px;
+}
+.Footer .Line {
+  margin-left: 750px;
+  border: 0.7px solid;
+  height: 218px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  position: absolute;
+  border-color: tomato;
+}
+.Footer .Address {
+  margin-left: 800px;
+  position: absolute;
+  width: 220px;
+  padding: 20px 10px 10px 10px;
+}
+.Footer .A1 {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.Footer .Our-Team {
+  margin-left: 1150px;
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+}
+.Footer .Our-Team li {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.Line2 {
+  position: absolute;
+  width: 1437px;
+  border-right: 0px;
+  border-bottom: 0px;
+  margin-left: -20px;
+  border-bottom: 0px;
+  border: 0.5px solid tomato;
+  margin-top: 15%;
+}

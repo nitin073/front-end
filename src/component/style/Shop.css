@@ -1,0 +1,216 @@
+#Main-All-Shop {
+  background-color: rgb(245, 239, 239);
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 50px;
+}
+#All-Shop {
+  width: 210px;
+}
+#All-Shop :hover {
+  cursor: pointer;
+}
+.All-Shop-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+.All-Shop-body {
+  display: inline-block;
+  margin: 30px 20px;
+}
+.All-Shop-body:hover {
+  /* background-color: magenta; */
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.All-Shop-header {
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 2px;
+}
+.Shop-Btn {
+  margin-left: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.Shop-Discrip {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Shop-Name {
+  padding-left: 12px;
+  padding-top: 8px;
+  margin-top: -35px;
+  margin-left: 35px;
+  margin-bottom: -2px;
+}
+.Shop-Rating {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: -2px;
+}
+.Shop-Star {
+  margin-top: -10px;
+  height: 10px;
+  margin-left: -6px;
+}
+.Shop-Walk {
+  height: 16px;
+  margin-top: -4px;
+}
+
+#Main_cart {
+  display: inline-block;
+  padding-left: 90px;
+  padding-top: 30px;
+  width: 1440px;
+  height: 600px;
+}
+.cart_images {
+  height: 100px;
+  border-radius: 5px;
+  margin-left: 2px;
+  width: 200px;
+}
+.Cart_Name {
+  padding-left: 20px;
+  font-weight: bold;
+}
+.Cart_Discrip {
+  font-size: 13px;
+  margin-top: -14px;
+}
+.Cart_Price {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.Cart_price {
+  font-size: 15px;
+  font-weight: bold;
+}
+.Cart_Remove {
+  margin-left: 55px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.Cart_Remove button {
+  border: none;
+  border-radius: 5px;
+}
+.cart_box {
+  margin-right: 40px;
+  display: inline-block;
+}
+.cart_box:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.Cart_Btn_A_R {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.Cart_Add {
+  border: none;
+  border-radius: 3px;
+}
+.Cart_Remove1 {
+  border: none;
+  border-radius: 3px;
+}
+.Cart_Count {
+  border: none;
+  border-radius: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.Cart_Disc {
+  margin-left: 8px;
+}
+.Details-Name {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.Details-Discrip {
+  margin-top: -17px;
+  padding-left: 10px;
+  font-size: 13px;
+}
+.Details-Price {
+  padding-left: 10px;
+  margin-top: 110px;
+  margin-bottom: -20px;
+  font-size: 15px;
+}
+
+.Details-Rating {
+  margin-top: -138px;
+  text-align: right;
+  margin-right: 14px;
+}
+.Cart_Total {
+  margin-top: 50px;
+}
+.Cart_Total button {
+  border: none;
+  border-radius: 8px;
+  margin-left: 330px;
+}
+.Cart__Btn {
+  margin-top: -34px;
+  font-size: 28px;
+}
+.Cart_Prices {
+  font-weight: bold;
+  font-size: 20px;
+}
+.Cart_Payment:hover {
+  background-color: red;
+}
+
+#cart {
+  font-size: 20px;
+  margin-top: -60px;
+  text-align: right;
+  margin-right: 30%;
+}
+
+.CartNumber {
+  color: red;
+  font-size: 17px;
+}
+.Cart-UserName {
+  text-align: right;
+  margin-top: -2%;
+  margin-right: 7%;
+}
+.cards {
+  height: 340px;
+  display: inline-block;
+  margin: 5px;
+}
+.cards button {
+  margin-left: 50px;
+  border: none;
+  background-color: antiquewhite;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.cards-img {
+  height: 100px;
+  margin-bottom: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+#Cards-Main {
+  display: inline-block;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+#Cards-Main:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
