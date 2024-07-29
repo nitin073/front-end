@@ -96,6 +96,7 @@ const Input = () => {
           {typeof window !== "undefined" && showConfetti && (
             <Confetti width={window.innerWidth} height={window.innerHeight} />
           )}
+          
           <button
             onClick={() => {
               handleDoneClick();
